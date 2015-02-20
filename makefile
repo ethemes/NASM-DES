@@ -1,5 +1,5 @@
 main:
 
-	@nasm -f elf prog.asm
-	@gcc prog.o -o prog
-	@rm prog.o
+	@nasm -f elf DES.asm
+	@gcc DES.o -o DES
+	@rm DES.o
